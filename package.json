@@ -6,7 +6,8 @@
   "scripts": {
     "test": "karma start karma.conf.js",
     "build": "npm run browserify",
-    "browserify": "browserify src/index.js -t babelify --standalone ng-validate | derequire > dist/ng-validate.js"
+    "browserify": "browserify src/index.js -t babelify --standalone ng-validate | derequire > dist/ng-validate.js",
+    "gh-pages": "./bin/gh-pages.sh"
   },
   "repository": {
     "type": "git",
