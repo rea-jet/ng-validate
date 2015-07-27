@@ -1,6 +1,6 @@
 {
-  "name": "ng-validate",
-  "version": "1.0.0",
+  "name": "rea-ng-validate",
+  "version": "0.0.0",
   "description": "Set bootstrap form error/warning states based on angular's form states",
   "main": "src/index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/rea-jet/ng-validate/issues"
   },
-  "homepage": "https://github.com/rea-jet/ng-validate#readme",
+  "homepage": "https://rea-jet.github.io/ng-validate/demo/",
   "devDependencies": {
     "angular": "^1.4.3",
     "angular-mocks": "^1.4.3",
