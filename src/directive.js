@@ -22,7 +22,6 @@ function ValidateGroup() {
     }
   }
 
-  Ctrl.$inject = ['$scope'];
   function Ctrl($scope) {
     var self = this;
     self.setValidity = setValidity;
@@ -36,7 +35,7 @@ function ValidateGroup() {
   return {
     scope: false,
     link: link,
-    controller: Ctrl
+    controller: ['$scope', Ctrl]
   };
 }
 
