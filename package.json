@@ -1,6 +1,6 @@
 {
   "name": "rea-ng-validate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set bootstrap form error/warning states based on angular's form states",
   "main": "src/index.js",
   "scripts": {
