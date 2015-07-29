@@ -33,7 +33,7 @@ function ValidateGroup() {
   }
 
   return {
-    scope: false,
+    scope: {},
     link: link,
     controller: ['$scope', Ctrl]
   };
