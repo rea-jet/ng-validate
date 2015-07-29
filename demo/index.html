@@ -50,6 +50,7 @@
         <!-- left -->
         <div class="col-md-6">
           <form>
+            <!-- email -->
             <div class="form-group" rea-validate-group>
               <label class="control-label">Email address</label>
               <input
@@ -63,14 +64,31 @@
                 <span
                   rea-validate-hint
                   class="help-block"
-                >This text describes the error and is only visible if the above input is in error-state</span>
+                >(email) This text describes the error and is only visible if the above input is in error-state</span>
+            </div>
+            <!-- name -->
+            <div class="form-group" rea-validate-group>
+              <label class="control-label">Name</label>
+              <input
+                type="name"
+                class="form-control"
+                placeholder="Name"
+                ng-model="app.form2.name"
+                ng-pattern="/^[a-zA-Z]+$/"
+                rea-validate
+                >
+                <span
+                  rea-validate-hint
+                  class="help-block"
+                >(name) This text describes the error and is only visible if the above input is in error-state</span>
             </div>
           </form>
         </div>
 
         <!-- right -->
         <div class="col-md-6">
-
+          <pre>{{ app.form }}</pre>
+          <pre>{{ app.form2 }}</pre>
         </div>
       </div>
 

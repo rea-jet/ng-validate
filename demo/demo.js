@@ -6,5 +6,6 @@
   function AppCtrl() {
     var vm = this;
     vm.form = {};
+    vm.form2 = {};
   }
 })();
