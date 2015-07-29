@@ -28,12 +28,12 @@ function ValidateGroup() {
 
     function setValidity(isValid) {
       $scope.$$setValidity(isValid);
-      $scope.$emit('rea-validate-change', {type: 'error', isValid: isValid});
+      $scope.$broadcast('rea-validate-change', {type: 'error', isValid: isValid});
     }
   }
 
   return {
-    scope: {},
+    scope: true,
     link: link,
     controller: ['$scope', Ctrl]
   };
